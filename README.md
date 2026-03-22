@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Grosse - Fashion Catalog Website
+
+Website katalog apparel modern berbasis Next.js untuk menampilkan koleksi produk seperti kaos, hoodie, jaket, dan tote bag dengan visual yang bold, animasi halus, dan halaman detail produk interaktif.
+
+## Highlight
+
+- Tampilan hero dan background neon gradient yang dinamis.
+- Grid katalog responsif untuk mobile hingga desktop.
+- Halaman detail produk dengan galeri gambar (next/prev + thumbnail).
+- Integrasi tombol aksi menuju link marketplace (Shopee).
+- Format harga lokal Indonesia (`id-ID`).
+- Arsitektur komponen yang rapi dan mudah dikembangkan.
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Framer Motion
+- Lucide React
+
+## Menjalankan Project Secara Lokal
+
+### 1. Install dependency
+
+```bash
+npm install
+```
+
+### 2. Jalankan development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Buka di browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Available Scripts
 
-## Learn More
+```bash
+npm run dev    # Menjalankan project pada mode development
+npm run build  # Build production
+npm run start  # Menjalankan hasil build production
+npm run lint   # Menjalankan ESLint
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Struktur Folder
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+app/
+	components/
+		CategoryFilter.tsx
+		FeaturesSection.tsx
+		Footer.tsx
+		HeroSection.tsx
+		Navbar.tsx
+		ProductCard.tsx
+	data/
+		products.ts
+	product/
+		[id]/
+			page.tsx
+	globals.css
+	layout.tsx
+	page.tsx
+public/
+	products/
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Sumber Data Produk
 
-## Deploy on Vercel
+Data katalog saat ini disimpan lokal di `app/data/products.ts`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Setiap item produk memiliki field berikut:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `id`
+- `name`
+- `price`
+- `category`
+- `images`
+- `description`
+- `isNew`
+- `shopeeLink`
+
+## Rencana Pengembangan
+
+- Menambahkan filter kategori dan pencarian pada halaman utama.
+- Integrasi CMS/API agar data produk tidak hardcoded.
+- Menambahkan sistem cart/checkout sederhana.
+- Optimasi image menggunakan `next/image` untuk performa lebih baik.
+- Menambahkan test (unit/integration) untuk komponen penting.
+
+## Deploy
+
+Project ini siap dideploy ke Vercel.
+
+Langkah cepat:
+
+1. Push repo ke GitHub.
+2. Import project di Vercel.
+3. Deploy otomatis.
+
+## Catatan
+
+Project ini cocok dijadikan starter untuk:
+
+- katalog brand fashion
+- landing page koleksi apparel
+- showcase produk kreator/desainer lokal
+
+---
+
+Kalau kamu mau, saya juga bisa bikinin versi README dengan gaya lebih "brand-ready" (pakai badge, demo GIF, palet warna, dan section presentasi untuk klien).
