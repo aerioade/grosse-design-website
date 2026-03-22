@@ -117,4 +117,4 @@ Project ini cocok dijadikan starter untuk:
 
 ---
 
-Kalau kamu mau, saya juga bisa bikinin versi README dengan gaya lebih "brand-ready" (pakai badge, demo GIF, palet warna, dan section presentasi untuk klien).
+
