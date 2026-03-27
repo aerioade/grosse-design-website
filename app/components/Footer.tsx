@@ -31,8 +31,8 @@ export function Footer() {
           </div>
           
           <p className="text-zinc-400 text-xs sm:text-sm max-w-md mx-auto px-4">
-            Desain premium untuk clothing brand Anda. 
-            Kualitas terbaik, pola eksklusif, siap produksi.
+            Trade your design here!, you can upload and sell your design
+            and you can buy design for your brand here. Start now!
           </p>
           
           {/* Social Media */}
