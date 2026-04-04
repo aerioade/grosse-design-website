@@ -12,16 +12,15 @@ export interface Product {
 export const products: Product[] = [
   {
     id: 1,
-    name: 'Your Brand',
-    price: 100000,
+    name: 'Kings will',
+    price: 150000,
     category: 'kaos',
     images: [
-      '/products/yb4.jpeg',
-      'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80',
-      'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80',
-      'https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800&q=80',
+      '/products/king_s will shirt v2 look.png',
+      '/products/king_s will long shirt v2 look (1).png',
+      '/products/king_s will v2.png',
     ],
-    description: 'Kaos streetwear urban dengan design modern yang cocok untuk daily wear. Material cotton premium yang nyaman dan breathable. Perfect untuk gaya kasual yang tetap stylish.',
+    description: 'design by : @rizz',
     isNew: false,
     shopeeLink: 'https://shopee.co.id',
   },
@@ -148,20 +147,7 @@ export const products: Product[] = [
     shopeeLink: 'https://shopee.co.id',
   },
 
-  {
-    id: 11,
-    name: 'Your Brand',
-    price: 100000,
-    category: 'hoodie',
-    images: [
-      '/products/yb3.jpeg',
-      'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&q=80',
-      'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80',
-    ],
-    description: 'Oversized hoodie dengan fit yang relaxed dan comfortable. Material premium fleece yang soft dan warm. Classic design yang never goes out of style.',
-    isNew: false,
-    shopeeLink: 'https://shopee.co.id',
-  },
+
 ];
 
 
