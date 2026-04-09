@@ -16,9 +16,10 @@ export const products: Product[] = [
     price: 150000,
     category: 'kaos',
     images: [
-      '/products/king_s will shirt v2 look.png',
-      '/products/king_s will long shirt v2 look (1).png',
-      '/products/king_s will v2.png',
+      '/products/kings will/kings will shirt v2 look.png',
+      '/products/kings will/kings will long shirt v2 look.png',
+      '/products/kings will/kings will v2 white background.png',
+      '/products/kings will/GROSSE GROSSE GROSSE.png',
     ],
     description: 'design by : @rizz',
     isNew: false,
@@ -31,13 +32,14 @@ export const products: Product[] = [
     price: 150000,
     category: 'kaos',
     images: [
-      '/products/fake it til you make it v2  black shirt.png',
-      '/products/fake it til you make it v2 long shirt.png',
-      '/products/fake it til you make it v2 transparent.png',
+      '/products/fake it til you make it/fake it til you make it v2  black shirt.png',
+      '/products/fake it til you make it/fake it til you make it v2 long shirt.png',
+      '/products/fake it til you make it/fake it til you make it v2.png',
+      '/products/fake it til you make it/GROSSE GROSSE GROSSE.png'
     ],
     description: 'design by : @rizz',
     isNew: false,
-    shopeeLink: 'https://shopee.co.id',
+    shopeeLink: 'mailto:designofgrosse@gmail.com',
   },
 
   {
@@ -46,9 +48,10 @@ export const products: Product[] = [
     price: 150000,
     category: 'kaos',
     images: [
-      '/products/you shot me look (1) (1).png',
-      '/products/you shot me long shirt look (1).png',
-      '/products/you shot me (no background).png',
+      '/products/you shot me/you shot me shirt look.png',
+      '/products/you shot me/you shot me long shirt look.png',
+      '/products/you shot me/you shot me.png',
+      '/products/you shot me/GROSSE GROSSE GROSSE.png',
     ],
     description: 'design by : @rizz',
     isNew: false,
