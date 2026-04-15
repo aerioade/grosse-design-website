@@ -58,6 +58,38 @@ export const products: Product[] = [
     shopeeLink: 'https://shopee.co.id',
   },
 
+  {
+    id: 4,
+    name: 'Tree',
+    price: 150000,
+    category: 'kaos',
+    images: [
+      '/products/tree/tree shirt mockup.png',
+      '/products/tree/tree long shirt mockup.png',
+      '/products/tree/DESIGN TREE1.png',
+      '/products/tree/GROSSE GROSSE GROSSE.png',
+    ],
+    description: 'design by : @rizz',
+    isNew: false,
+    shopeeLink: 'https://shopee.co.id',
+  },
+
+  {
+    id: 5,
+    name: 'Receipt Supercar',
+    price: 150000,
+    category: 'kaos',
+    images: [
+      '/products/receipt/receipt shirt mockup.png',
+      '/products/receipt/receipt long shirt mockup.png',
+      '/products/receipt/receipt.png',
+      '/products/receipt/GROSSE GROSSE GROSSE (1).png',
+    ],
+    description: 'design by : @rizz',
+    isNew: false,
+    shopeeLink: 'https://shopee.co.id',
+  },
+
 ];
 
 
