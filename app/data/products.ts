@@ -13,7 +13,7 @@ export const products: Product[] = [
   {
     id: 1,
     name: 'Kings will',
-    price: 150000,
+    price: 178000,
     category: 'kaos',
     images: [
       '/products/kings will/kings will shirt v2 look.png',
@@ -29,7 +29,7 @@ export const products: Product[] = [
   {
     id: 2,
     name: 'Fake it till you make it',
-    price: 150000,
+    price: 199000,
     category: 'kaos',
     images: [
       '/products/fake it til you make it/fake it til you make it v2  black shirt.png',
@@ -45,7 +45,7 @@ export const products: Product[] = [
   {
     id: 3,
     name: 'You shot me',
-    price: 150000,
+    price: 149000,
     category: 'kaos',
     images: [
       '/products/you shot me/you shot me shirt look.png',
@@ -61,7 +61,7 @@ export const products: Product[] = [
   {
     id: 4,
     name: 'Tree',
-    price: 150000,
+    price: 199000,
     category: 'kaos',
     images: [
       '/products/tree/tree shirt mockup.png',
@@ -77,7 +77,7 @@ export const products: Product[] = [
   {
     id: 5,
     name: 'Receipt Supercar',
-    price: 150000,
+    price: 139000,
     category: 'kaos',
     images: [
       '/products/receipt/receipt shirt mockup.png',
